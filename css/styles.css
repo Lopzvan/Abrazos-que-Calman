@@ -78,6 +78,7 @@ main{
     padding: var(--altura_main);
     text-align: center;
     align-items: center;
+    padding-right: 40px;
 }
 main img {
     width: 100%;
@@ -94,11 +95,9 @@ main p{
 }
 .actividades {
     padding-left: 2rem;
-    display: flex;
     gap: 4em;
 }
 .row{
-    display: flex;
     padding: 5px;
     flex-wrap: wrap;
 }
@@ -130,13 +129,13 @@ main p{
     text-align: center;
 }
 .contenedor-formulario h2 {
-    font-size: 28px;
+    font-size: 38px;
     color: black;
     margin-bottom: 15px;
 }
 .contenedor-formulario p {
-    font-size: 16px;
-    color: #555;
+    font-size: 20px;
+    color: black;
     margin-bottom: 30px;
     line-height: 1.6;
 }
@@ -149,14 +148,14 @@ main p{
 .campo label {
     margin-bottom: 6px;
     font-weight: 600;
-    color: #4a4a4a;
+    color: black;
 }
 .campo input,
 .campo textarea {
     padding: 12px;
     border-radius: 8px;
-    border: 1px solid #dcdcdc;
-    font-size: 14px;
+    border: 1px solid var(--color_primario_suave);
+    font-size: 18px;
     transition: 0.3s ease;
 }
 .campo input:focus,
@@ -169,7 +168,7 @@ button {
     width: 100%;
     padding: 14px;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: var(--color_primario_suave);
     color: white;
     font-size: 16px;
@@ -203,7 +202,7 @@ footer ul{
 }
 
 /* mediaq desktop */
-@media (min-width:768px){
+@media (min-width:1025px){
     .labe_hamburguesa {
         display: none;
     }
